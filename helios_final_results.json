@@ -1,0 +1,47 @@
+{
+  "model": "Qwen2.5-3B-Instruct",
+  "hardware": "NVIDIA L4",
+  "dataset": "ShareGPT 317K prompts",
+  "stages": {
+    "fp32_batch1": {
+      "latency": 5275,
+      "tput": 18.23,
+      "mem": 12.35,
+      "speedup": 1.0
+    },
+    "fp16_batch1": {
+      "latency": 4528,
+      "tput": 21.43,
+      "mem": 6.18,
+      "speedup": 1.17
+    },
+    "int8_batch1": {
+      "latency": 22288,
+      "tput": 4.48,
+      "mem": 3.44,
+      "speedup": 0.24
+    },
+    "sdpa_batch1": {
+      "latency": 4536,
+      "tput": 21.39,
+      "mem": 6.18,
+      "speedup": 1.16
+    },
+    "sdpa_batch16": {
+      "latency": 338,
+      "tput": 295.81,
+      "mem": 6.18,
+      "speedup": 16.23
+    },
+    "int4_batch16": {
+      "latency": 904.3890126499946,
+      "tput": 110.57188731979959,
+      "mem": 2.08108032,
+      "speedup": 6.065380544146987
+    }
+  },
+  "cost_per_1M_fp32": 46.62643993417444,
+  "cost_per_1M_optimized": 7.687306607524953,
+  "cost_savings_pct": 83.5129882993906,
+  "annual_savings_100M_daily": 1421278.3664227063
+}

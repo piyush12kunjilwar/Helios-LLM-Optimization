@@ -1,0 +1,8 @@
+{
+  "precision": "FP16+SDPA",
+  "latency_mean": 4536.4189759898,
+  "latency_p95": 4723.185036649193,
+  "tokens_per_sec": 21.386913447259627,
+  "gpu_mem_gb": 6.181451264,
+  "speedup_vs_fp32": 1.1628335098499203
+}

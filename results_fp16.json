@@ -1,0 +1,11 @@
+{
+  "model": "Qwen2.5-3B-Instruct",
+  "precision": "FP16",
+  "hardware": "NVIDIA L4",
+  "prompts": 100,
+  "latency_mean": 4527.470928769999,
+  "latency_p95": 4723.42872115114,
+  "tokens_per_sec": 21.429182324171858,
+  "gpu_mem_gb": 6.181451264,
+  "speedup_vs_fp32": 1.1651317221009996
+}

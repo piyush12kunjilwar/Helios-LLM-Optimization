@@ -1,0 +1,37 @@
+{
+  "1": {
+    "batch_size": 1,
+    "latency_mean_ms": 5150.648980449932,
+    "latency_per_req": 5150.648980449932,
+    "tokens_per_sec": 19.41502913119592,
+    "batches_tested": 20
+  },
+  "2": {
+    "batch_size": 2,
+    "latency_mean_ms": 5237.675993549874,
+    "latency_per_req": 2618.837996774937,
+    "tokens_per_sec": 38.18487440733204,
+    "batches_tested": 20
+  },
+  "4": {
+    "batch_size": 4,
+    "latency_mean_ms": 5317.778695550078,
+    "latency_per_req": 1329.4446738875195,
+    "tokens_per_sec": 75.21937690538351,
+    "batches_tested": 20
+  },
+  "8": {
+    "batch_size": 8,
+    "latency_mean_ms": 5329.014854649995,
+    "latency_per_req": 666.1268568312494,
+    "tokens_per_sec": 150.1215556383626,
+    "batches_tested": 20
+  },
+  "16": {
+    "batch_size": 16,
+    "latency_mean_ms": 5408.814097400136,
+    "latency_per_req": 338.0508810875085,
+    "tokens_per_sec": 295.81345766146313,
+    "batches_tested": 20
+  }
+}

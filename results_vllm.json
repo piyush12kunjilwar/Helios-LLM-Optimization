@@ -1,0 +1,11 @@
+{
+  "vllm_version": "0.18.0",
+  "batch1_latency_ms": 2562.591703899743,
+  "batch1_p95_ms": 2588.688749701214,
+  "continuous_tput": 2681.417855514963,
+  "continuous_lat_ms": 37.12961029003054,
+  "large_tput": 3472.1132662913233,
+  "large_lat_ms": 28.18258434999734,
+  "speedup_vs_fp32": 190.4615066533913,
+  "gpu_mem_gb": 0.0
+}

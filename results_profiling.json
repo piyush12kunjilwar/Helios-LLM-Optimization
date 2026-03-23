@@ -1,0 +1,56 @@
+{
+  "top_ops": [
+    {
+      "op": "model_inference",
+      "time_ms": 4093.183357,
+      "pct": 39.14706558267424
+    },
+    {
+      "op": "model_inference",
+      "time_ms": 1370.166987999967,
+      "pct": 13.104230194506272
+    },
+    {
+      "op": "aten::linear",
+      "time_ms": 1249.302242999999,
+      "pct": 11.948283908578148
+    },
+    {
+      "op": "aten::matmul",
+      "time_ms": 1155.0468169999854,
+      "pct": 11.046828239157614
+    },
+    {
+      "op": "aten::mm",
+      "time_ms": 1154.9753939999869,
+      "pct": 11.046145152029286
+    },
+    {
+      "op": "std::enable_if<!(false), void>::type internal::gemvx::kernel<int, int, __half, __half, __half, float, false, true, true, false, 6, false, cublasGemvParamsEx<int, cublasGemvTensorStridedBatched<__half const>, cublasGemvTensorStridedBatched<__half const>, cublasGemvTensorStridedBatched<__half>, float> >(cublasGemvParamsEx<int, cublasGemvTensorStridedBatched<__half const>, cublasGemvTensorStridedBatched<__half const>, cublasGemvTensorStridedBatched<__half>, float>)",
+      "time_ms": 881.544987000004,
+      "pct": 8.431066094595886
+    },
+    {
+      "op": "std::enable_if<!(false), void>::type internal::gemvx::kernel<int, int, __half, __half, __half, float, false, true, true, false, 7, false, cublasGemvParamsEx<int, cublasGemvTensorStridedBatched<__half const>, cublasGemvTensorStridedBatched<__half const>, cublasGemvTensorStridedBatched<__half>, float> >(cublasGemvParamsEx<int, cublasGemvTensorStridedBatched<__half const>, cublasGemvTensorStridedBatched<__half const>, cublasGemvTensorStridedBatched<__half>, float>)",
+      "time_ms": 334.1871969999947,
+      "pct": 3.196154918268146
+    },
+    {
+      "op": "aten::addmm",
+      "time_ms": 94.32684900001213,
+      "pct": 0.9021387565488641
+    },
+    {
+      "op": "aten::mul",
+      "time_ms": 27.903069999965716,
+      "pct": 0.26686400680745465
+    },
+    {
+      "op": "aten::scaled_dot_product_attention",
+      "time_ms": 16.42416899999603,
+      "pct": 0.15708019038145662
+    }
+  ],
+  "top_bottleneck": "model_inference",
+  "total_time_ms": 10455.913606999873
+}
